@@ -56,7 +56,7 @@ gflags.DEFINE_string('mysql_password', '',
 gflags.DEFINE_boolean('upgrade_system_packages', False,
     'If set, performs "apt-get upgrade" during install/upgrade.')
 
-gflags.DEFINE_string('kegbot_server_package', 'git+https://github.com/johnnyruz/kegbot-server.git@latest_buster',
+gflags.DEFINE_string('kegbot_server_package', 'git+https://github.com/johnnyruz/kegbot-server.git@latest',
     '(Advanced use only.) Version of Kegbot Server to install.')
 
 gflags.DEFINE_string('kegbot_pycore_package', 'git+https://github.com/johnnyruz/kegbot-pycore.git@latest',
